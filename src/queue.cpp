@@ -22,11 +22,13 @@ class Queue {
   
   int isFull();
   int isEmpty();
-   
+  
   void Enqueue(int Item);
    int Dequeue();   
   void showData();
   void updateData();
+  void isQueue();
+  
 };
 
 void Queue::showData() {
