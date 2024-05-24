@@ -26,9 +26,7 @@ class Queue {
   void Enqueue(int Item);
    int Dequeue();   
   void showData();
-  void updateData();
-  void isQueue();
-  
+  void updateData();  
 };
 
 void Queue::showData() {
