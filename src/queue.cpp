@@ -3,7 +3,10 @@
 
 
 
-//   base <- [  |  |  |  |  ] -> top
+//   front <- [ 12 | 34 | 45 | 56 | 2 ] -> back
+//   front -> 12
+//   back -> 2
+//   size -> 6
 
 class Queue {
   
